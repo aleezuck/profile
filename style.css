@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@500;700&display=swap');
+
+body {
+    background-color: #e8e4db;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 32px;
+    color: #184e77;
+}
+
+h2 {
+    font-size: 20px;
+    color: #1a759f;
+}
+
+a:link, a:visited {
+    color: #34a0a4;
+    text-decoration: none;
+    transition: 0.2s all;
+}
+
+a:hover, a:active {
+    color: #52b69a;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 90%;
+    }
+}
+
+.card {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#img-profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center 25%;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.list-inline {
+    padding: 0px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#cta {
+    margin: 20px auto 0 auto;
+}
+
+.btn-green {
+    display: block;
+    background-color: #52b69a;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    width: max-content;
+}
+
+.btn-green:link, .btn-green:visited {
+    color: #fff;
+}
+
+.btn-green:hover, .btn-green:active {
+    background-color: #34a0a4;
+}
